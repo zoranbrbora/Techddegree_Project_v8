@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
+      <link href="css/tour.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+      <title>Accessible Frog</title>
+  </head>
+
+  <body>
+    <div class="main-nav" role="navigation">
+      <ul class="nav">
+        <li class="name"><a href="index.html">Accessible Frog</a></li>
+        <li><a href="#">Tour</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </div>
+
+    <header role="banner">
+      <h1 class="logo">Accessible Frog</h1>
+      <p class="header_text">we make awesome music</p>
+    </header>
+
+    <main role="main">
+      <div class="card">
+        <div class="flex">
+          <img class="pick" src= "img/guitar_pick.png" alt="">
+          <h2 class="heading">Tour Dates</h2>
+          <img class="pick" src= "img/guitar_pick.png" alt="">
+            <table>
+              <caption class="table_caption">Tour dates, venues and, locations for upcoming shows</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col" class="table_col">Venue</th>
+                  <th scope="col" class="table_col">Location</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>Mar 10 - 12</td>
+                <td class="table_col">The Warfield</td>
+                <td class="table_col">San Francisco, CA</td>
+              </tr>
+              <tr>
+                <td>Mar 20 - 23</td>
+                <td class="table_col">Pepsi Center</td>
+                <td class="table_col">Denver, CO</td>
+              </tr>
+              <tr>
+                <td>Apr 2 - 4</td>
+                <td class="table_col">Beacon Theatre </td>
+                <td class="table_col">New York City, NY</td>
+              </tr>
+              <tr>
+                <td>Apr 10</td>
+                <td class="table_col">Paramount Theatre</td>
+                <td class="table_col">Seattle, WA</td>
+              </tr>
+            </table>
+        </div>
+      </div>
+    </main>
+    
+    <footer role="contentinfo">
+      <ul>
+        <li><a href="#" class="social twitter" aria-hidden="true"><img src= "img/twitter-32.png" alt="Twitter Logo"></a></li>
+        <li><a href="#" class="social youtube" aria-hidden="true"><img src= "img/youtube-32.png" alt="Youtube Logo"></a></li>
+        <li><a href="#" class="social spotify" aria-hidden="true"><img src= "img/spotify-32.png" alt="Spotify Logo"></a></li>
+      </ul>
+      <p class="copyright">Copyright 2015, Accessible Frog</p>
+    </footer>
+  </body>
+</html>

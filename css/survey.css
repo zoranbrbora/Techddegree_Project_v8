@@ -1,0 +1,94 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+
+fieldset {
+  border: none;
+  margin-top: 1.2em;
+  width: 400px;
+}
+
+.survey {
+  text-align: left;
+}
+
+legend {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+button[id="submit"]:focus {
+  background: #E0CCFF;
+  color: #2d2b30;
+}
+
+input[type="radio"]:focus {
+  transform: scale(1.5);
+}
+
+input[type="radio"]:hover {
+  transform: scale(1.5);
+}
+
+textarea:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+select:hover,
+button[id="submit"]:hover {
+  background: #E0CCFF;
+  color: #2d2b30;
+}
+
+.albums,
+.bandMembers,
+.textarea_label {
+  margin: 20px 0 10px 0;
+  display: block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+}
+
+#hint,
+#yourFullName,
+#yourEmail,
+#retypeEmail,
+#songs,
+#bandAlbums,
+#bandMembers {
+  display: none;
+}
+
+.newsletter_label {
+  display: inline-block;
+  padding: 5px 0;
+  width: 50%;
+}
+
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}

@@ -1,0 +1,38 @@
+/* Tour page styles */
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
+
+/*=========================
+TABLE
+=========================*/
+
+.table_caption {
+  font-size: 20px;
+  padding: 1.5em 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+th {
+  padding-bottom: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.table_col {
+  padding-left: 40px;
+}
