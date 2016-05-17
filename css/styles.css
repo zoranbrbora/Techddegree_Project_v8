@@ -24,9 +24,6 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  color: #999;
-}
 
 /* Section Styles */
 
@@ -59,13 +56,21 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
+.nav a,
+.buy {
   transition: all .5s;
 }
 
-.nav a:hover {
-  color: white;
+.nav a:hover,
+.buy:hover {
+  color: #FF8BA3;
 }
+
+.nav a:focus,
+.buy:focus {
+  color: #fff;
+}
+
 
 header {
   text-align: center;
@@ -142,11 +147,6 @@ header .name{
   color: #FF8BA3;
   margin-top: 10px;
 }
-
-.buy:hover {
-  color: #fff;
-}
-
 
 /* Footer styles */
 
